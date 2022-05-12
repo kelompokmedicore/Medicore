@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewObatActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/viewObat_ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Obat List"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/viewObat_tv_noObat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Belum ada obat yang Tersedia"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/viewObat_lv_obatList"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_below="@id/viewObat_ll_header"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/viewObat_fab_createObat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:elevation="6dp"
+        android:src="@drawable/ic_add"
+        app:tint="@null"
+        android:backgroundTint="@color/design_default_color_primary"/>
+
+
+</RelativeLayout>
