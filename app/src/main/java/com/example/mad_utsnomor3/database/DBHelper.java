@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    private Context context;
+    private final Context context;
 
     public static final String SQL_CREATE_OBAT_TABLE =
             "CREATE TABLE IF NOT EXISTS obat(id INTEGER PRIMARY KEY AUTOINCREMENT, nama TEXT, deskripsi TEXT, jenis TEXT, qty INTEGER)";
@@ -114,6 +114,7 @@ public class DBHelper extends SQLiteOpenHelper {
             Obat obat = new Obat(id, nama, deskripsi, jenis, qty);
             obatList.add(obat);
         }
+        cursor.close();
         return obatList;
     }
 
@@ -151,6 +152,7 @@ public class DBHelper extends SQLiteOpenHelper {
             User user = new User(id, nama, email, password, gender, umur);
             userList.add(user);
         }
+        cursor.close();
         return userList;
     }
 
