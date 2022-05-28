@@ -55,7 +55,6 @@ public class SignUpActivity extends AppCompatActivity {
                     db.insertUser(nama, email, password, gender, umur);
                     Intent i = new Intent(SignUpActivity.this, SignInActivity.class);
                     startActivity(i);
-                    Toast.makeText(SignUpActivity.this, "Successfully registered!", Toast.LENGTH_SHORT).show();
                     etNama.setText("");
                     etEmail.setText("");
                     etPassword.setText("");

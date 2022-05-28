@@ -130,9 +130,9 @@ public class DBHelper extends SQLiteOpenHelper {
         long result = db.insert("user", null, contentValues);
 
         if(result == -1) {
-            Toast.makeText(context, "Failed to input obat!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Failed to register!", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(context, "Successfully input obat!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Successfully registered!", Toast.LENGTH_SHORT).show();
         }
     }
 
