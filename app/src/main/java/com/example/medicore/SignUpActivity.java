@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3;
+package com.example.medicore;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,8 +14,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-import com.example.mad_utsnomor3.database.DBHelper;
-import com.example.mad_utsnomor3.object.User;
+import com.example.medicore.database.DBHelper;
+import com.example.medicore.object.User;
 
 import java.util.ArrayList;
 

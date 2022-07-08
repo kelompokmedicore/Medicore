@@ -51,19 +51,19 @@
         android:id="@+id/updateObat_ll_jenis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_below="@+id/createObat_ll_deskripsi"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/createObat_ll_deskripsi">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jenis"/>
+            android:text="Jenis" />
 
         <Spinner
             android:id="@+id/createObat_spinner_jenis"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

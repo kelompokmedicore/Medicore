@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3.adapter;
+package com.example.medicore.adapter;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -11,10 +11,10 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.mad_utsnomor3.R;
-import com.example.mad_utsnomor3.UpdateObatActivity;
-import com.example.mad_utsnomor3.database.DBHelper;
-import com.example.mad_utsnomor3.object.Obat;
+import com.example.medicore.R;
+import com.example.medicore.UpdateObatActivity;
+import com.example.medicore.database.DBHelper;
+import com.example.medicore.object.Obat;
 
 import java.util.ArrayList;
 

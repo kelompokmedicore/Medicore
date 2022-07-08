@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3;
+package com.example.medicore;
 
 import androidx.appcompat.app.AppCompatActivity;
 

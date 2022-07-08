@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3.database;
+package com.example.medicore.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 
-import com.example.mad_utsnomor3.object.Obat;
-import com.example.mad_utsnomor3.object.User;
+import com.example.medicore.object.Obat;
+import com.example.medicore.object.User;
 
 import java.util.ArrayList;
 
@@ -31,7 +31,7 @@ public class DBHelper extends SQLiteOpenHelper {
             "DROP TABLE IF EXISTS user";
 
     public DBHelper(Context context) {
-        super(context, "MyMeds", null, 5);
+        super(context, "medicore", null, 5);
         this.context = context;
     }
 

@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3;
+package com.example.medicore;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.mad_utsnomor3.database.DBHelper;
+import com.example.medicore.database.DBHelper;
 
 public class CreateObatActivity extends AppCompatActivity{
 

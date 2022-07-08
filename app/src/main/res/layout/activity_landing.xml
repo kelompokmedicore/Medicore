@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/landing_iv_icon"
         android:layout_centerHorizontal="true"
-        android:text="Welcome to MyMeds!"
+        android:text="Welcome to medicore!"
         android:textSize="24sp"
         android:textColor="@color/black2"
         android:textStyle="bold"
@@ -31,12 +31,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/landing_tv_welcome"
-        android:text="MyMeds is an application that has several features such as registering medicines to a list, updating medicines that have been registered to a list, and deleting medicines that have been registered on the list. This application is intended to be used by medical staffs to track various kinds of medicines that they have."
-        android:textAlignment="center"
-        android:fontFamily="@font/inter"
-        android:textColor="@color/black2"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"/>
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/inter"
+        android:text="Medicore adalah Aplikasi yang dapat digunakan oleh para tenaga medis untuk mengorganisir stok obat perusahaan."
+        android:textAlignment="center"
+        android:textColor="@color/black2" />
 
     <Button
         android:id="@+id/landing_btn_signIn"

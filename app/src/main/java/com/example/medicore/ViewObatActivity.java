@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3;
+package com.example.medicore;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,10 +11,10 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.mad_utsnomor3.adapter.ObatAdapter;
-import com.example.mad_utsnomor3.database.DBHelper;
-import com.example.mad_utsnomor3.object.Obat;
-import com.example.mad_utsnomor3.object.User;
+import com.example.medicore.adapter.ObatAdapter;
+import com.example.medicore.database.DBHelper;
+import com.example.medicore.object.Obat;
+import com.example.medicore.object.User;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;

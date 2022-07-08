@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3;
+package com.example.medicore;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.example.mad_utsnomor3.object.User;
+import com.example.medicore.object.User;
 
 public class ViewProfileActivity extends AppCompatActivity {
 

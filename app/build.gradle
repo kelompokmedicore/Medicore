@@ -7,7 +7,7 @@ android {
     buildToolsVersion "32.0.0"
 
     defaultConfig {
-        applicationId "com.example.mad_utsnomor3"
+        applicationId 'com.example.medicore'
         minSdkVersion 23
         targetSdkVersion 32
         versionCode 1

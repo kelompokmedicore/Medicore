@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3.object;
+package com.example.medicore.object;
 
 import android.os.Parcel;
 import android.os.Parcelable;

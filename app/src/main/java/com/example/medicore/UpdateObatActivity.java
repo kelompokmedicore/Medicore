@@ -1,4 +1,4 @@
-package com.example.mad_utsnomor3;
+package com.example.medicore;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import com.example.mad_utsnomor3.database.DBHelper;
-import com.example.mad_utsnomor3.object.Obat;
+import com.example.medicore.database.DBHelper;
+import com.example.medicore.object.Obat;
 
 public class UpdateObatActivity extends AppCompatActivity {
 
@@ -100,7 +100,18 @@ public class UpdateObatActivity extends AppCompatActivity {
             spinQty.setSelection(3);
         } else if(qty==5) {
             spinQty.setSelection(4);
+        } else if(qty==6) {
+            spinQty.setSelection(5);
+        } else if(qty==7) {
+            spinQty.setSelection(6);
+        } else if(qty==8) {
+            spinQty.setSelection(7);
+        } else if(qty==9) {
+            spinQty.setSelection(8);
+        } else if(qty==10) {
+            spinQty.setSelection(9);
         }
+
     }
 
     @Override
