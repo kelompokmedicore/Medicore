@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+    <TextView
+        android:id="@+id/register_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:textColor="@color/black2"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/dark_grey"/>
+
+    <EditText
+        android:id="@+id/register_et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:inputType="text"
+        android:hint="Nama (Min: 8 huruf)"/>
+
+    <EditText
+        android:id="@+id/register_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email (example@mail.com)"/>
+
+    <EditText
+        android:id="@+id/register_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Password (Min: 8 huruf)"/>
+
+    <EditText
+        android:id="@+id/register_et_umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="Umur (Min: 13)"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/register_rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/register_rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Female"/>
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/register_checkBox_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="I agree to the terms and conditions"/>
+
+    <Button
+        android:id="@+id/register_btn_register"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button_1"/>
+
+</LinearLayout>
